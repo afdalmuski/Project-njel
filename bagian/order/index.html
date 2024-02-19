@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Day #69 - JavaScript Form Validator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="bg.png" />
+      <form id="mainForm" novalidate>
+        <h2>Pembayaran</h2>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Masukkan Nama"
+            autocomplete="off"
+          />
+          <i class="icon"></i>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Alamat </label>
+          <input id="email" placeholder="Masukkan Alamat" autocomplete="off" />
+          <i class="icon"></i>
+        </div>
+
+        <div class="form-control">
+          <label for="phone">Phone</label>
+          <input
+            type="tel"
+            id="phone"
+            placeholder="Masukkan No Telepon"
+            autocomplete="off"
+          />
+          <i class="icon"></i>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Nama Waiter/Maid</label>
+          <input
+            id="password"
+            placeholder="Masukkan Nama Waiters/Maid"
+            autocomplete="off"
+          />
+          <i class="icon"></i>
+        </div>
+
+        <div class="form-control">
+          <label for="message">Paket </label>
+          <textarea id="message" placeholder="Detail Paket"></textarea>
+          <i class="icon"></i>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div id="successModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Success!</h2>
+        <p>Pemesanan sedang diproses</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

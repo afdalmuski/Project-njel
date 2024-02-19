@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Chic Boutique</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap CDN4-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  </head>
+  <body>
+
+
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" width="125px">
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#kategori">kategori</a></li>
+            <li><a href="#member">Membership</a></li>
+            <li><a href="#paket">Paket</a></li>
+          </ul>
+        </nav>
+        <a href="#kategori"><img src="img/cart.png" width="30px;"></a>
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+      <div id="home"> 
+        <div class="row">
+          <div class="col-2">
+            <h3>- Nak Kerje ke -</h3>
+            <h1>NaKe.id <br></h1> 
+            <p>aplikasi <b>Nake</b> memudahkan mencari Asisten rumah tangga dan waiters dgn ruang lingkup Pekanbaru yg menjadi nilai tambahnya kami terjamin asuransi, berbadan hukum dan profesional.</p>
+            <a href="#kategori" class="btn"> <b> ORDER &#8594;</b></a>
+          </div>
+          <div class="col-2">
+            <img src="img/image1.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Featured Categories -->
+
+    <div id="kategori">
+    <div class="categories">
+      <div class="small-container">
+        <h2 class="title">Pilihan Jasa</h2>
+        <div class="row">
+        <div class="col-3">
+         <a href="#featured"> <img src="img/category-1.png" ></a> 
+          <h3>Waiters</h3>
+        </div>
+        <div class="col-3">
+         <a href="#maid"> <img src="img/category-3.png"> </a> 
+          <h3>Maid</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--Featured Product -->
+  <div id="featured">
+    <div class="small-container">
+      <h2 class="title"> Waiters</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="img/product-1.png">
+          <h4>Dedi Yanto</h4>
+          <a href="deskripsi.html" class="btn"> Check Profil</a> 
+        </div>
+
+        <div class="col-4">
+          <img src="img/product-2.png">
+          <h4>Susiani</h4>
+          <a href="deskripsi1.html" class="btn"> Check Profil</a> 
+        </div>
+
+        <div class="col-4">
+          <img src="img/product-3.png">
+          <h4>Agustian</h4>
+          <a href="deskripsi2.html" class="btn"> Check Profil</a> 
+        </div>
+
+        <div class="col-4">
+          <img src="img/product-4.png">
+          <h4>Indah Wulan</h4>
+          <a href="deskripsi3.html" class="btn"> Check Profil</a> 
+        </div>
+      </div>
+
+
+      <div id="maid">
+        <div class="small-container">
+          <h2 class="title">Maid</h2>
+          <div class="row">
+            <div class="col-4">
+              <img src="img/product-5.png">
+              <h4>Angelina Poli</h4>
+              <a href="maid1.html" class="btn"> Check Profil</a>           
+            </div>
+
+            <div class="col-4">
+              <img src="img/product-6.png">
+              <h4>Salsabila Ananda </h4>
+              <a href="maid2.html" class="btn"> Check Profil</a> 
+            </div>
+            <div class="col-4">
+              <img src="img/product-7.png">
+              <h4>Natasya Julia </h4>
+              <a href="maid3.html" class="btn"> Check Profil</a> 
+            </div>
+
+            <div class="col-4">
+              <img src="img/product-8.png">
+              <h4> Nursaidah </h4>
+              <a href="maid4.html" class="btn"> Check Profil</a> 
+          </div>
+          
+          <div class="row">
+          <div class="col-4">
+            <img src="img/maid5.png">
+            <h4> Monalisa</h4>
+            <a href="maid5.html" class="btn"> Check Profil</a> 
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+   
+
+
+  <!--Testimonial-->
+  <div id="paket"> 
+    <div class="testimonial">
+      <div class="pp"> 
+      <div class="small-container">
+        <h2 class="title">Paket MAID </h2>
+        <div class="row">
+          <a href="#custom"><div class="col-3">
+            <img src="img/user-4.png"> 
+              <h3>Custom </h3>
+            </div></a>
+         
+            <a href="#komplit"> <div class="col-3">
+            <img src="img/user-5.png">
+            <h3>Komplit</h3>
+          </div>
+        </a> 
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <div id="custom">
+    <div class="testimonial">
+      <div class="small-container">
+        <h2 class="title">Paket Custom </h2>
+        <div class="row">
+          <div class="col-3">
+          
+            <p>Harga 30.000/Hours</p>  
+            <img src="img/user-4.png">
+            <h3>Paket Loundry </h3>
+          </div>
+         
+          <div class="col-3">
+            <p>Harga 40.000/Hours</p>
+            <img src="img/user-5.png">
+            <h3>Paket Memasak</h3>
+          </div>
+
+          <div class="col-3">
+            <p>Harga 25.000/Hours</p>
+            <img src="img/user-5.png">
+            <h3>Paket Halaman Rumah</h3>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="komplit">
+    <div class="testimonial">
+      <div class="small-container">
+        <h2 class="title">Paket Komplit </h2>
+        <div class="row">
+          <div class="col-3">
+          
+            <p>jadwal 1x seminggu <br> 5 jam kedatangan <br><b> Harga 35.000/Hours</b></p>  
+            <img src="img/user1.png">
+            <h3>daily Package </h3>
+          </div>
+         
+          <div class="col-3">
+            <p>Jadwal 3x seminggu <br> 2 jam kedatangan <br> <b>Harga 30.000/Hours</b></p>
+            <img src="img/user2.png">
+            <h3>Weekly Package</h3>
+          </div>
+
+          <div class="col-3">
+            <p>Jadwal setiap hari <br> 2 ham kedatangan <br> <b>50.000/Hours</b></p>
+            <img src="img/user3.png">
+            <h3>Monthly Package</h3>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Offer-->
+<div id="member">
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/membership.png" class="offer-img">
+        </div>
+        <div class="col-2">
+          <h1>MEMBERSHIP</h1>
+          <h2>Keuntungan member</h2><br>
+          <small> <b> potongan komisi 3%</b> setiap transaksi anda akan secara otomatis di potong komisi 3% dari Aplikasi</small><br><br>
+
+          <h2>Tentang Program Membership</h2> <br>
+         <small> <b> Menciptakan Lapangan Kerja</b> Aplikasi ini sangat mambantu para pekerja dalam mencari 
+            pekerjaan dan mempermudah serta meefesienkan costumer dalam membutuhkan pelayanan</small>
+        <small><br> <b> Perlindungan Hukum</b> Pekerja dan Costumer mendapat pendamping  hukum apabila terjadi tindakan kriminal atau hal lain yang tidak diinginkan</small>
+          
+        </div>
+    </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/sk.png" class="offer-img">
+        </div>
+        <div class="col-2">
+          
+          <h1>Syarat & Ketentuan</h1>
+          
+          <small> <b> Foto Terbaru</b> [Tampak depan, Samping kiri & Kanan dan Belakang]</small><br>
+          <small> <b> SKCK</b> [Surat Keterngan Catatan Kepilisian]</small><br>
+          <small> <b> KTP</b> [Kartu Tanda Penduduk]</small>
+          
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--brands-->
+  <div class="brands">
+    <div class="small-container">
+      <h2 class="title">Sponsored by </h2>
+      <div class="row">
+        <div class="col-5">
+          <img src="img/logo.png">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+
+  <div id="kontak">
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download Apps for Android and Ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="img/play-store.png">
+              <img src="img/app-store.png">
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="img/logo.png">
+            <p>Nak Kerje Ke</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Belajar.</h3>
+            <ul>
+              <li>Testi</li>
+              <li>Blog  </li>
+              <li>yok bisa yok</li>
+              <li>Semangat</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024  |  All Right Reserved</p>
+      </div>
+    </div>
+  </div>
+  <!--JS for Toggle Menu-->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+      if (MenuItems.style.maxHeight == "0px")
+          {
+            MenuItems.style.maxHeight = "200px"
+          }
+      else
+          {
+            MenuItems.style.maxHeight = "0px"
+          }
+    }
+  </script>
+
+ </body>
+</html
