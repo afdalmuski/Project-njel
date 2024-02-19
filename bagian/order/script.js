@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function checkInputs() {
     let isValid = true;
     validateField(name, name.value.trim() !== "", "Name cannot be blank");
-    validateField(email, isEmail(email.value.trim()), "Not a valid email");
+    
     validateField(
       phone,
       isPhone(phone.value.trim()),
