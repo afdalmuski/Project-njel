@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
     );
     validateField(
       password,
-      password.value.trim().length >= 8,
-      "Password must be at least 8 characters"
+      password.value.trim().length >= 3,
+      "wrong"
     );
     validateField(
       message,
